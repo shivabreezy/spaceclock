@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	    background-attachment:fixed;
+}
+
+.logo {
+	padding: 50px;
+}
+
+.een{
+	text-align: center;
+}
+
+.logo img {
+	width: 300px;
+}
+
+#logo{
+	width: 350px;
+}
+
+#rocket{
+	width: 200px;
+}
+
+#clock{
+	font-size: 150px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #FFF;
+	text-align: center;
+}
+
+.logo{
+	width: 300px;
+}
+
+.titel{
+	font-size: 60px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #FFF;
+}
+
+.flex-grid-een{
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+}
+
+.subtitel{
+	font-size: 20px;
+	padding: 10px;
+	opacity: 0.5;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+}
+@media screen and (min-width: 768px) {
+	.titel{
+		font-size: 40px;
+	}
+	.subtitel{
+		font-size: 10px;
+	}
+	#clock{
+		font-size: 50px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.titel{
+		font-size: 50px;
+	}
+	.subtitel{
+		font-size: 15px;
+	}
+	#clock{
+		font-size: 100px;
+	}
+}
+@media screen and (min-width: 1366px) {
+	.titel{
+		font-size: 60px;
+	}
+	.subtitel{
+		font-size: 20px;
+	}
+	#clock{
+		font-size: 150px;
+	}
+}
